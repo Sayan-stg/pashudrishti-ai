@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // =========================================================================
     // 1. DICTIONARIES: ENGLISH, HINDI, BENGALI, GUJARATI, MARATHI
     // =========================================================================
+    // CODE:
     const I18N = {
         en: {
             langTag: "English",
