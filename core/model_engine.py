@@ -56,7 +56,7 @@ class PashuDrishtiEngine:
     def identify(self, pil_img, top_k=3, min_species_confidence=0.55):
         tensor = TRANSFORM(pil_img).unsqueeze(0).to(self.device)
         
-        # Tier 1: Species Detection
+        # Tier 1: Species Detection for cattle breed
         with torch.no_grad():
             species_out = self.species_model(tensor)
             species_probs = torch.softmax(species_out, dim=1)[0]
