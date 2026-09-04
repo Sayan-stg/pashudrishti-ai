@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 # 🇮🇳 PashuDrishti AI (पशु-दृष्टि)
 ### *AI-Driven Bovine Species & Breed Triangulation System*
@@ -206,6 +206,18 @@ Top 3 Triangulated Breeds:
 ========================================================
 Compliant with Ministry of Animal Husbandry & Dairying
 ```
+
+---
+
+## 👥 Team
+
+| Name | Registration Number |
+| :--- | :--- |
+| Khyati Singh | 25BCE11336 |
+| Yashraj | 25BCE11417 |
+| Sayan Mondal | 25BAI11532 |
+| Mohit Borekar | 25BCG10008 |
+| Aditya Kumar Singh | 25BCE11333 |
 
 ---
 
