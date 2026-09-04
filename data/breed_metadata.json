@@ -1,0 +1,289 @@
+{
+  "Alambadi": {
+    "type": "Cow",
+    "origin": "Tamil Nadu (Dharmapuri & Krishnagiri)",
+    "category": "Draught",
+    "description": "Hardy draught breed, grey/dark grey coat with backward-curving horns.",
+    "hallmarks": "Narrow face, backward horns curving slightly inward, active temperament."
+  },
+  "Amritmahal": {
+    "type": "Cow",
+    "origin": "Karnataka (Hassan, Chikmagalur, Tumkur)",
+    "category": "Draught",
+    "description": "Fierce, athletic draught breed developed for historical cavalry transport.",
+    "hallmarks": "Long sharp horns pointing backwards and ending in sharp points, grey to white coat."
+  },
+  "Ayrshire": {
+    "type": "Cow",
+    "origin": "Scotland (Exotic)",
+    "category": "Milch (Dairy)",
+    "description": "Medium-sized dairy cattle with distinctive red-and-white or mahogany patches.",
+    "hallmarks": "Even red-brown and white coloration, lyre-shaped horns or polled, balanced dairy udder."
+  },
+  "Banni": {
+    "type": "Buffalo",
+    "origin": "Gujarat (Kutch / Banni Grasslands)",
+    "category": "Milch (Dairy)",
+    "description": "Resilient, heat-tolerant buffalo adapted to harsh arid climates; nocturnal grazer.",
+    "hallmarks": "Medium to large body, coiled vertical ring horns, exceptionally high milk fat content."
+  },
+  "Bargur": {
+    "type": "Cow",
+    "origin": "Tamil Nadu (Erode / Bargur hills)",
+    "category": "Draught",
+    "description": "Known for endurance and speed in hilly terrain.",
+    "hallmarks": "Brown coat with distinct white patches, long horns pointing backward and upward."
+  },
+  "Bhadawari": {
+    "type": "Buffalo",
+    "origin": "Uttar Pradesh & Madhya Pradesh (Chambal ravine tract)",
+    "category": "Milch (Dairy)",
+    "description": "Renowned for the highest fat percentage in milk among buffalo breeds (up to 13%).",
+    "hallmarks": "Copper or light yellowish-brown skin color (copper-colored), two white lines (chevron) under the neck (Janeu)."
+  },
+  "Brown_Swiss": {
+    "type": "Cow",
+    "origin": "Switzerland (Exotic)",
+    "category": "Milch (Dairy)",
+    "description": "Large dairy cattle breed noted for docility and high protein milk yield.",
+    "hallmarks": "Solid brown/grey coat with light muzzle ring and dark nose."
+  },
+  "Dangi": {
+    "type": "Cow",
+    "origin": "Maharashtra (Nashik, Ahmednagar) & Gujarat",
+    "category": "Draught",
+    "description": "Exceptional working ability under heavy rainfall and muddy paddy fields.",
+    "hallmarks": "Distinctive speckled coat (red-white or black-white speckles), oily skin secretion."
+  },
+  "Deoni": {
+    "type": "Cow",
+    "origin": "Maharashtra & Karnataka border (Marathwada)",
+    "category": "Dual-Purpose (Milch & Draught)",
+    "description": "Gentle dual-purpose breed popular across the Deccan plateau.",
+    "hallmarks": "White coat with irregular black or red patches, drooping ears, convex forehead."
+  },
+  "Gir": {
+    "type": "Cow",
+    "origin": "Gujarat (Gir hills and Kathiawar peninsula)",
+    "category": "Milch (Dairy)",
+    "description": "World-famous indigenous milch breed, known for A2 milk and heat tolerance.",
+    "hallmarks": "Prominently convex forehead, long pendulous leaf-like curled ears, half-moon horns."
+  },
+  "Guernsey": {
+    "type": "Cow",
+    "origin": "Isle of Guernsey (Exotic)",
+    "category": "Milch (Dairy)",
+    "description": "Dairy breed producing golden-tinted milk rich in beta-carotene.",
+    "hallmarks": "Fawn/golden coat with white markings, gentle disposition."
+  },
+  "Hallikar": {
+    "type": "Cow",
+    "origin": "Karnataka (Mysore, Mandya, Bangalore)",
+    "category": "Draught",
+    "description": "Premier draught breed of South India, known for unmatched stamina.",
+    "hallmarks": "Long, backward sweeping horns with sharp tips, lean and energetic build."
+  },
+  "Hariana": {
+    "type": "Cow",
+    "origin": "Haryana & Punjab",
+    "category": "Dual-Purpose (Milch & Draught)",
+    "description": "Robust white/grey dual-purpose animal popular in North Indian agriculture.",
+    "hallmarks": "White to light grey coat, narrow face with flat forehead, short horns curved inward."
+  },
+  "Holstein_Friesian": {
+    "type": "Cow",
+    "origin": "Netherlands / Germany (Exotic)",
+    "category": "Milch (Dairy)",
+    "description": "Highest milk-producing cattle breed globally.",
+    "hallmarks": "Distinctive large black and white piebald patches, large stature, well-developed udder."
+  },
+  "Jaffrabadi": {
+    "type": "Buffalo",
+    "origin": "Gujarat (Saurashtra & Gir forest)",
+    "category": "Milch (Dairy)",
+    "description": "One of the heaviest riverine buffalo breeds with enormous body frame.",
+    "hallmarks": "Prominent heavy drooping horns (drooping headgear), wide bulging forehead."
+  },
+  "Jersey": {
+    "type": "Cow",
+    "origin": "Channel Islands (Exotic)",
+    "category": "Milch (Dairy)",
+    "description": "Popular small dairy cattle breed with high butterfat content.",
+    "hallmarks": "Fawn to light brown body, dished face with large dark eyes, black muzzle with white ring."
+  },
+  "Kangayam": {
+    "type": "Cow",
+    "origin": "Tamil Nadu (Coimbatore, Tiruppur, Erode)",
+    "category": "Draught",
+    "description": "Sturdy, prized draught breed celebrated in traditional rural culture.",
+    "hallmarks": "Compact body, short stout legs, strong upward curved horns, grey/white coat with dark extremities."
+  },
+  "Kankrej": {
+    "type": "Cow",
+    "origin": "Gujarat (Rann of Kutch) & Rajasthan",
+    "category": "Dual-Purpose (Milch & Draught)",
+    "description": "Majestic indigenous breed celebrated for the graceful Sawai Chaal gait.",
+    "hallmarks": "Massive lyre-shaped horns, pendulous ears, strong hump and dark dewlap shading."
+  },
+  "Kasargod": {
+    "type": "Cow",
+    "origin": "Kerala (Kasargod district)",
+    "category": "Draught / Dwarf Milch",
+    "description": "Miniature indigenous cow adapted to tropical humid climates with high disease resistance.",
+    "hallmarks": "Compact miniature stature, varied coat colors (often brown/black), docile."
+  },
+  "Kenkatha": {
+    "type": "Cow",
+    "origin": "Bundelkhand (UP & MP, Ken River basin)",
+    "category": "Draught",
+    "description": "Hardy draught breed thriving on scrub vegetation and hilly terrain.",
+    "hallmarks": "Small to medium size, grey/roan coat, horns projecting forward."
+  },
+  "Kherigarh": {
+    "type": "Cow",
+    "origin": "Uttar Pradesh (Lakhimpur Kheri)",
+    "category": "Draught",
+    "description": "Active draught animals capable of pulling heavy loads in alluvial soils.",
+    "hallmarks": "White coat, long upturned horns, narrow muzzle."
+  },
+  "Khillari": {
+    "type": "Cow",
+    "origin": "Maharashtra (Solapur, Satara) & Karnataka",
+    "category": "Draught",
+    "description": "Fast-trotting, powerful draught breed closely related to Hallikar.",
+    "hallmarks": "Long upward swept horns, pinkish nose and eyelids, tight skin and grey-white color."
+  },
+  "Krishna_Valley": {
+    "type": "Cow",
+    "origin": "Karnataka & Maharashtra (Krishna River basin)",
+    "category": "Draught",
+    "description": "Massive draught cattle bred for heavy agricultural tillage in deep black cotton soil.",
+    "hallmarks": "Heavy massive build, grey-white body with darker quarters in bulls, short horns."
+  },
+  "Malnad_gidda": {
+    "type": "Cow",
+    "origin": "Karnataka (Western Ghats / Malnad)",
+    "category": "Milch / Miniature",
+    "description": "Dwarf hill cattle breed with high disease resistance and adaptation to heavy monsoons.",
+    "hallmarks": "Miniature height (under 95 cm), black or brown solid colors, active foragers."
+  },
+  "Mehsana": {
+    "type": "Buffalo",
+    "origin": "Gujarat (Mehsana, Banaskantha)",
+    "category": "Milch (Dairy)",
+    "description": "High yielding cross derivative of Murrah and Surti buffaloes.",
+    "hallmarks": "Semi-sickle/curled horns less tightly coiled than Murrah, heavy milk production."
+  },
+  "Murrah": {
+    "type": "Buffalo",
+    "origin": "Haryana (Rohtak, Jind, Hisar) & Punjab",
+    "category": "Milch (Dairy)",
+    "description": "The Black Gold of India \u2014 premier dairy buffalo breed worldwide.",
+    "hallmarks": "Jet black coat, tightly curled spiral horns, short broad neck, soft skin."
+  },
+  "Nagori": {
+    "type": "Cow",
+    "origin": "Rajasthan (Nagaur district)",
+    "category": "Draught",
+    "description": "One of the most famous fast-trotting draught breeds in India.",
+    "hallmarks": "Tall stature, long thin legs, white/light grey coat, flat forehead."
+  },
+  "Nagpuri": {
+    "type": "Buffalo",
+    "origin": "Maharashtra (Vidarbha / Nagpur region)",
+    "category": "Dual-Purpose (Milch & Draught)",
+    "description": "Lighter river buffalo well-suited for draught and dairy in hot central India.",
+    "hallmarks": "Long flat sword-shaped horns curving backward towards shoulders, black coat."
+  },
+  "Nili_Ravi": {
+    "type": "Buffalo",
+    "origin": "Punjab (Sutlej & Ravi valley)",
+    "category": "Milch (Dairy)",
+    "description": "Distinctive dairy buffalo known as the Panch Kalyan.",
+    "hallmarks": "Five white marks: forehead blazes, muzzle, 4 white socks, and white switch on tail."
+  },
+  "Nimari": {
+    "type": "Cow",
+    "origin": "Madhya Pradesh (Nimar tract)",
+    "category": "Draught",
+    "description": "Draught breed created from crossing Gir and Khillari stocks.",
+    "hallmarks": "Red coat with irregular white splashes (piebald), moderately long backward horns."
+  },
+  "Ongole": {
+    "type": "Cow",
+    "origin": "Andhra Pradesh (Prakasam / Ongole tract)",
+    "category": "Dual-Purpose",
+    "description": "World-renowned majestic Zebu breed; foundation of the international Brahman breed.",
+    "hallmarks": "Massive frame, large hump in bulls, short stumpy horns, pure white/light grey color."
+  },
+  "Pulikulam": {
+    "type": "Cow",
+    "origin": "Tamil Nadu (Sivagangai & Madurai)",
+    "category": "Draught",
+    "description": "Agile and fiery native cattle commonly used in traditional Jallikattu events.",
+    "hallmarks": "Small compact body, dark grey coat with black hump and tail tip, forward-curving sharp horns."
+  },
+  "Rathi": {
+    "type": "Cow",
+    "origin": "Rajasthan (Bikaner, Ganganagar, Jaisalmer)",
+    "category": "Milch (Dairy)",
+    "description": "Renowned dairy breed of the Thar desert, highly efficient food converter.",
+    "hallmarks": "Brownish coat with white patches or solid dull brown, docile, medium horns."
+  },
+  "Red_Dane": {
+    "type": "Cow",
+    "origin": "Denmark (Exotic)",
+    "category": "Milch (Dairy)",
+    "description": "Robust European dairy breed with high milk production and longevity.",
+    "hallmarks": "Solid dark red coat, robust frame, calm temperament."
+  },
+  "Red_Sindhi": {
+    "type": "Cow",
+    "origin": "Sindh & Western India",
+    "category": "Milch (Dairy)",
+    "description": "Famous heat-resistant dairy cattle known for rich milk yield.",
+    "hallmarks": "Rich deep red coat, compact well-proportioned body, thick short horns."
+  },
+  "Sahiwal": {
+    "type": "Cow",
+    "origin": "Punjab & Rajasthan border (Montgomery tract)",
+    "category": "Milch (Dairy)",
+    "description": "Premier indigenous milch breed; highest milk producer among native Indian cattle.",
+    "hallmarks": "Reddish-dun coat, loose skin with prominent pendulous dewlap (Lola), stumpy horns."
+  },
+  "Surti": {
+    "type": "Buffalo",
+    "origin": "Gujarat (Kaira, Baroda)",
+    "category": "Milch (Dairy)",
+    "description": "Medium-sized docile buffalo renowned for economical milk production.",
+    "hallmarks": "Sickle-shaped horns curving downward then upward, two white collars around throat."
+  },
+  "Tharparkar": {
+    "type": "Cow",
+    "origin": "Rajasthan (Thar Desert border)",
+    "category": "Dual-Purpose (Milch & Draught)",
+    "description": "White Sindhi cattle with exceptional desert hardiness and disease resistance.",
+    "hallmarks": "Lyre-shaped horns, pure white or light grey coat reflecting desert heat, convex forehead."
+  },
+  "Toda": {
+    "type": "Buffalo",
+    "origin": "Tamil Nadu (Nilgiri Hills)",
+    "category": "Milch / Tribal Heritage",
+    "description": "Unique hill buffalo bred exclusively by the indigenous Toda pastoral tribe.",
+    "hallmarks": "Wide crescent-shaped horns curving outwards and upwards, fawn to ash-grey coat, thick hair coat."
+  },
+  "Umblachery": {
+    "type": "Cow",
+    "origin": "Tamil Nadu (Nagapattinam & Tiruvarur)",
+    "category": "Draught",
+    "description": "Compact draught breed specially suited for marshy delta paddy cultivation.",
+    "hallmarks": "Calves born red/brown turning grey, white star on forehead, short backward curved horns."
+  },
+  "Vechur": {
+    "type": "Cow",
+    "origin": "Kerala (Kottayam / Vechur village)",
+    "category": "Milch / Miniature",
+    "description": "The smallest cattle breed in the world (Guinness Record), famous for medicinal milk properties.",
+    "hallmarks": "Extremely small size (avg height ~85-90 cm), low maintenance, high resistance to mastitis."
+  }
+}

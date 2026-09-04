@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>PashuDrishti AI &mdash; Bharat Pashudhan Field System</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <!-- Header & Government Branding -->
+    <header class="app-header">
+        <div class="official-bar">
+            <div class="official-tag">
+                <svg class="indian-flag-svg" width="24" height="16" viewBox="0 0 900 600" aria-label="Flag of India">
+                    <rect width="900" height="200" fill="#FF9933"/>
+                    <rect y="200" width="900" height="200" fill="#FFFFFF"/>
+                    <rect y="400" width="900" height="200" fill="#138808"/>
+                    <!-- Ashoka Chakra -->
+                    <g transform="translate(450, 300)">
+                        <circle r="75" fill="none" stroke="#000080" stroke-width="7"/>
+                        <circle r="14" fill="#000080"/>
+                        <!-- 24 Spokes -->
+                        <g id="spokes" stroke="#000080" stroke-width="4">
+                            <line y1="-75" y2="75"/>
+                            <line y1="-75" y2="75" transform="rotate(15)"/>
+                            <line y1="-75" y2="75" transform="rotate(30)"/>
+                            <line y1="-75" y2="75" transform="rotate(45)"/>
+                            <line y1="-75" y2="75" transform="rotate(60)"/>
+                            <line y1="-75" y2="75" transform="rotate(75)"/>
+                            <line y1="-75" y2="75" transform="rotate(90)"/>
+                            <line y1="-75" y2="75" transform="rotate(105)"/>
+                            <line y1="-75" y2="75" transform="rotate(120)"/>
+                            <line y1="-75" y2="75" transform="rotate(135)"/>
+                            <line y1="-75" y2="75" transform="rotate(150)"/>
+                            <line y1="-75" y2="75" transform="rotate(165)"/>
+                        </g>
+                    </g>
+                </svg>
+                <span data-i18n="gov_banner">Govt. of India &bull; Bharat Pashudhan</span>
+            </div>
+            <div class="status-tag">
+                <span class="pulse-dot"></span>
+                <span data-i18n="registry_live">Census Portal Active</span>
+            </div>
+        </div>
+
+        <div class="main-navbar">
+            <div class="brand">
+                <h1>PashuDrishti AI (पशु-दृष्टि)</h1>
+                <p data-i18n="brand_sub">AI Bovine Breed Triangulation</p>
+            </div>
+            <div class="cur-lang-badge" id="currentLangTag">English</div>
+        </div>
+
+        <!-- 3-Step Wizard Progress Bar -->
+        <div class="stepper-wrap">
+            <div class="stepper">
+                <div class="step-line"></div>
+                
+                <div class="step-node active" id="nodeStep1">
+                    <div class="step-circle">1</div>
+                    <div class="step-label" data-i18n="step_nav_lang">Language</div>
+                </div>
+
+                <div class="step-node" id="nodeStep2">
+                    <div class="step-circle">2</div>
+                    <div class="step-label" data-i18n="step_nav_photo">Photo</div>
+                </div>
+
+                <div class="step-node" id="nodeStep3">
+                    <div class="step-circle">3</div>
+                    <div class="step-label" data-i18n="step_nav_result">Diagnosis</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="page-container">
+
+        <!-- ========================================== -->
+        <!-- PAGE 1: REGIONAL LANGUAGE SELECTION       -->
+        <!-- ========================================== -->
+        <section id="screenStep1" class="step-screen active">
+            <div class="wizard-card">
+                <div class="screen-header">
+                    <h2 data-i18n="p1_title">Select Preferred Language</h2>
+                    <p data-i18n="p1_subtitle">Choose your regional language for field operation</p>
+                </div>
+
+                <div class="lang-grid">
+                    <!-- English -->
+                    <div class="lang-option-card selected" data-lang="en">
+                        <div>
+                            <span class="lang-name-native">English</span>
+                            <span class="lang-name-en">Default Official</span>
+                        </div>
+                        <div class="check-pill">&#10003;</div>
+                    </div>
+
+                    <!-- Hindi -->
+                    <div class="lang-option-card" data-lang="hi">
+                        <div>
+                            <span class="lang-name-native">हिन्दी</span>
+                            <span class="lang-name-en">Hindi</span>
+                        </div>
+                        <div class="check-pill">&#10003;</div>
+                    </div>
+
+                    <!-- Bengali -->
+                    <div class="lang-option-card" data-lang="bn">
+                        <div>
+                            <span class="lang-name-native">বাংলা</span>
+                            <span class="lang-name-en">Bengali</span>
+                        </div>
+                        <div class="check-pill">&#10003;</div>
+                    </div>
+
+                    <!-- Gujarati -->
+                    <div class="lang-option-card" data-lang="gu">
+                        <div>
+                            <span class="lang-name-native">ગુજરાતી</span>
+                            <span class="lang-name-en">Gujarati</span>
+                        </div>
+                        <div class="check-pill">&#10003;</div>
+                    </div>
+
+                    <!-- Marathi -->
+                    <div class="lang-option-card" data-lang="mr">
+                        <div>
+                            <span class="lang-name-native">मराठी</span>
+                            <span class="lang-name-en">Marathi</span>
+                        </div>
+                        <div class="check-pill">&#10003;</div>
+                    </div>
+                </div>
+
+                <div class="wizard-nav">
+                    <div></div> <!-- spacer -->
+                    <button id="btnStep1Next" class="btn btn-primary" type="button">
+                        <span data-i18n="btn_next">Proceed to Photo Upload</span> &rarr;
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================== -->
+        <!-- PAGE 2: PHOTO INGESTION (UPLOAD/CAMERA)    -->
+        <!-- ========================================== -->
+        <section id="screenStep2" class="step-screen">
+            <div class="wizard-card">
+                <div class="screen-header">
+                    <h2 data-i18n="p2_title">Step 2: Livestock Imagery Ingestion</h2>
+                    <p data-i18n="p2_subtitle">Provide a clear, unobstructed photograph of the cattle or buffalo</p>
+                </div>
+
+                <!-- Capture Mode Switcher -->
+                <div class="capture-mode-tabs">
+                    <button id="btnTabUpload" class="mode-btn active" type="button" data-i18n="tab_upload">
+                        📁 Device Storage
+                    </button>
+                    <button id="btnTabCamera" class="mode-btn" type="button" data-i18n="tab_camera">
+                        📷 Field Camera
+                    </button>
+                </div>
+
+                <!-- Dropzone Area -->
+                <div id="dropzoneBox" class="dropzone-box">
+                    <input type="file" id="filePicker" accept="image/jpeg,image/png,image/webp" hidden>
+                    <div style="font-size: 2.2rem; margin-bottom: 8px;">📥</div>
+                    <div style="font-weight: 700; font-size: 1.05rem;" data-i18n="dropzone_prompt">Tap to Select Picture</div>
+                    <p style="font-size: 0.85rem; color: var(--text-light); margin-top: 4px;" data-i18n="dropzone_hint">JPG, PNG, WEBP supported &bull; Natural daylight recommended</p>
+                </div>
+
+                <!-- Live Camera Viewport -->
+                <div id="cameraViewport" class="camera-wrap hidden">
+                    <video id="camFeed" autoplay playsinline></video>
+                    <canvas id="camCanvas" hidden></canvas>
+                    <div class="cam-bar">
+                        <button id="btnSnapPhoto" class="btn btn-primary btn-flex" type="button" data-i18n="btn_snap">📸 Capture</button>
+                        <button id="btnCancelCamera" class="btn btn-secondary" type="button" data-i18n="btn_cancel">Cancel</button>
+                    </div>
+                </div>
+
+                <!-- Image Preview Area -->
+                <div id="previewCard" class="preview-wrap hidden">
+                    <img id="imgPreview" alt="Selected livestock">
+                    <div class="preview-info">
+                        <span id="previewTag">Image Loaded</span>
+                        <span data-i18n="status_ready">Ready for Identification</span>
+                    </div>
+                </div>
+
+                <div class="tip-box" data-i18n="tip_text">
+                    <b>Field Guideline:</b> Frame the bovine so cranial features, ear curve, and dewlap are clearly discernible.
+                </div>
+
+                <!-- Page 2 Navigation (Back and Next) -->
+                <div class="wizard-nav">
+                    <button id="btnStep2Back" class="btn btn-secondary" type="button">
+                        &larr; <span data-i18n="btn_back">Back to Language</span>
+                    </button>
+                    <button id="btnStep2Next" class="btn btn-primary" type="button">
+                        <span data-i18n="btn_run_diag">Execute Breed Diagnostic</span> &rarr;
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================== -->
+        <!-- PAGE 3: RESULT & TELEMETRY SCREEN          -->
+        <!-- ========================================== -->
+        <section id="screenStep3" class="step-screen">
+            <div class="wizard-card">
+                <div class="screen-header">
+                    <h2 data-i18n="p3_title">Step 3: Breed Identification Results</h2>
+                    <p data-i18n="p3_subtitle">Top-3 ranked candidates with regional traits &amp; confidence scores</p>
+                </div>
+
+                <!-- Loading State Spinner -->
+                <div id="loadingBox" class="loading-box hidden">
+                    <div class="spinner"></div>
+                    <h3 data-i18n="loading_title">Processing Morphological Model...</h3>
+                    <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 4px;" data-i18n="loading_sub">Triangulating across 41 indigenous &amp; dairy breeds</p>
+                </div>
+
+                <!-- Dedicated Error Notice Box -->
+                <div id="errorBox" class="hidden" style="text-align:center; padding:28px 16px; background:#fff7ed; border:1.5px solid #fed7aa; border-radius:8px; margin-bottom:20px;">
+                    <div style="font-size:2.2rem; margin-bottom:8px;">⚠️</div>
+                    <h3 id="errorMsgText" style="color:#9a3412; font-weight:800; font-size:1.15rem;"></h3>
+                </div>
+
+                <!-- Active Output Presentation -->
+                <div id="outputBox">
+                    <!-- Species Category Banner -->
+                    <div class="species-card">
+                        <div>
+                            <span class="species-sub" data-i18n="lbl_verified_species">Verified Primary Species</span>
+                            <div id="txtSpeciesName" class="species-name">Indigenous Cattle (Cow)</div>
+                        </div>
+                        <div>
+                            <span id="txtSpeciesScore" class="species-score">99.4%</span>
+                        </div>
+                    </div>
+
+                    <!-- Top 3 Header -->
+                    <div style="font-size: 0.88rem; font-weight: 800; color: var(--text-muted); text-transform: uppercase; margin-bottom: 12px;" data-i18n="top3_heading">
+                        Top 3 Suggested Breeds (Ranked by Probability)
+                    </div>
+
+                    <!-- Dynamic Top-3 Breed Cards -->
+                    <div id="breedCardsList">
+                        <!-- Populated by JS -->
+                    </div>
+
+                    <!-- Add / Change Image & Export Actions -->
+                    <div style="background: var(--bg-subtle); border-radius: 8px; padding: 14px; margin-top: 20px; display: flex; flex-direction: column; gap: 10px;">
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <span style="font-weight: 700; font-size: 0.95rem;" data-i18n="lbl_survey_slip">Field Verification Slip</span>
+                            <button id="btnExportSlip" class="btn btn-secondary" style="padding: 6px 12px; font-size: 0.85rem;" type="button">
+                                📄 <span data-i18n="btn_export">Download Slip</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 3 Navigation (Back / Change Image) -->
+                <div class="wizard-nav">
+                    <button id="btnStep3Back" class="btn btn-secondary" type="button">
+                        &larr; <span data-i18n="btn_back_upload">Back / Change Image</span>
+                    </button>
+                    <button id="btnStep3New" class="btn btn-primary" type="button">
+                        🔄 <span data-i18n="btn_new_survey">New Livestock Survey</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Official Portal Footer -->
+    <footer class="app-footer">
+        <p data-i18n="footer_info"><b>PashuDrishti AI v2.4</b> &bull; National Bovine Taxonomy System &bull; Ministry of Animal Husbandry &amp; Dairying</p>
+    </footer>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
