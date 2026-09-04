@@ -34,6 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
             top3_heading: "Top 3 Suggested Breeds (Ranked by Probability)",
             lbl_survey_slip: "Field Verification Slip",
             btn_export: "Download Slip",
+            btn_change_photo: "Change / Choose Different Photo",
             btn_back_upload: "Back / Change Image",
             btn_new_survey: "New Livestock Survey",
             footer_info: "<b>PashuDrishti AI v2.4</b> • National Bovine Taxonomy System • Ministry of Animal Husbandry & Dairying",
@@ -78,6 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
             top3_heading: "शीर्ष 3 अनुशंसित नस्लें (प्राथमिकता अनुसार)",
             lbl_survey_slip: "डिजिटल सत्यापन पर्ची",
             btn_export: "पर्ची डाउनलोड करें",
+            btn_change_photo: "फ़ोटो बदलें / दूसरी फ़ोटो चुनें",
             btn_back_upload: "पीछे जाएँ / फ़ोटो बदलें",
             btn_new_survey: "नया पशु सर्वेक्षण",
             footer_info: "<b>पशु-दृष्टि AI v2.4</b> • राष्ट्रीय पशुधन गणना प्रणाली • पशुपालन और डेयरी मंत्रालय",
@@ -122,6 +124,7 @@ document.addEventListener('DOMContentLoaded', () => {
             top3_heading: "শীর্ষ ৩টি প্রস্তাবিত জাত (সম্ভাবনা অনুসারে)",
             lbl_survey_slip: "ফিল্ড ভেরিফিকেশন স্লিপ",
             btn_export: "স্লিপ ডাউনলোড করুন",
+            btn_change_photo: "ছবি পরিবর্তন করুন / অন্য ছবি বাছুন",
             btn_back_upload: "পিছনে যান / ছবি পরিবর্তন করুন",
             btn_new_survey: "নতুন পশু জরিপ",
             footer_info: "<b>পশুদৃষ্টি AI v2.4</b> • জাতীয় পশুসম্পদ শুমারি ব্যবস্থা • পশুপালন ও দুগ্ধ বিভাগ",
@@ -166,6 +169,7 @@ document.addEventListener('DOMContentLoaded', () => {
             top3_heading: "ટોચની ૩ ભલામણ કરેલ ઓલાદો (સંભાવના ક્રમમાં)",
             lbl_survey_slip: "સર્વેક્ષણ પ્રમાણપત્ર સ્લિપ",
             btn_export: "સ્લિપ ડાઉનલોડ કરો",
+            btn_change_photo: "ફોટો બદલો / બીજો ફોટો પસંદ કરો",
             btn_back_upload: "પાછળ જાઓ / ફોટો બદલો",
             btn_new_survey: "નવું પશુ સર્વેક્ષણ",
             footer_info: "<b>પશુદ્રષ્ટિ AI v2.4</b> • રાષ્ટ્રીય પશુધન ગણતરી પ્રણાલી • પશુપાલન અને ડેરી મંત્રાલય",
@@ -210,6 +214,7 @@ document.addEventListener('DOMContentLoaded', () => {
             top3_heading: "शीर्ष ३ शिफारस केलेल्या जाती (संभाव्यतेनुसार)",
             lbl_survey_slip: "क्षेत्रीय पडताळणी पावती",
             btn_export: "पावती डाऊनलोड करा",
+            btn_change_photo: "फोटो बदला / दुसरा फोटो निवडा",
             btn_back_upload: "मागे जा / फोटो बदला",
             btn_new_survey: "नवीन पशु सर्वेक्षण",
             footer_info: "<b>पशुदृष्टी AI v2.4</b> • राष्ट्रीय पशुधन गणना प्रणाली • पशुसंवर्धन आणि दुग्धव्यवसाय मंत्रालय",
@@ -411,6 +416,17 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Step 2 Buttons
+    const btnChangeImageStep2 = document.getElementById('btnChangeImageStep2');
+    if (btnChangeImageStep2) {
+        btnChangeImageStep2.addEventListener('click', () => {
+            selectedImageBlob = null;
+            filePicker.value = '';
+            previewCard.classList.add('hidden');
+            dropzoneBox.classList.remove('hidden');
+            btnTabUpload.click();
+        });
+    }
+
     document.getElementById('btnStep2Back').addEventListener('click', () => {
         stopCamera();
         goToStep(1);
